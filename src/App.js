@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome Northen Fields: A Winnipeg based LARPing group. 
+          Welcome Northern Fields: A Winnipeg based LARPing group.
         </p>
         <a
           className="App-link"
