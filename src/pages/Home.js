@@ -28,7 +28,25 @@ let StyledLink = styled.a`
     background-color: #758e4f;
   }
 `;
-
+let SocialLinkBar = styled.div`
+display: flex;
+flex-direction: row;
+align-content: center;
+width: 100%;
+height: 10%;
+padding: 1em;
+justify-content: space-evenly;`
+;
+let SocialLink = styled.a`
+text-decoration: none;
+color: #30292f;
+padding: 1%;
+font-size: 1em;
+background-color: #4b88a2;
+&:hover {
+  background-color: #758e4f;
+}
+`;
 function Home() {
   return (
     <HomePage>
@@ -36,7 +54,7 @@ function Home() {
         We are a free to play, action packed combat LARP based in Winnipeg,
         Manitoba.
       </p>
-      <p>We meet every Sunday at Noon, in Coronation Park.</p>
+      <p>We meet every Sunday at 11 AM, in Coronation Park.</p>
       <HeraldryImg src={logo} alt="logo" />
       <StyledLink
         href="https://discord.gg/ynnNdGejKG"
@@ -45,6 +63,26 @@ function Home() {
       >
         JOIN OUR DISCORD
       </StyledLink>
+     <SocialLinkBar>
+      <SocialLink
+        href="https://www.facebook.com/groups/3246392332268526/"
+        target="_blank"
+        rel="noopener noreferrer">
+          Facebook
+      </SocialLink>
+      <SocialLink
+        href="https://www.instagram.com/northernfieldslarp/"
+        target="_blank"
+        rel="noopener noreferrer">
+          Instagram
+      </SocialLink>
+      <SocialLink
+        href="https://twitter.com/northern_fields"
+        target="_blank"
+        rel="noopener noreferrer">
+          Twitter
+      </SocialLink>
+      </SocialLinkBar>
     </HomePage>
   );
 }
