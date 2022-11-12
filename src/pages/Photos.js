@@ -1,6 +1,16 @@
 import React from "react";
 import styled from "@emotion/styled";
 
+import chelli_fire_elemental from "../data/07d508ab3133db90e4a2b9899e76ff53.jpg";
+import mads_thoror from "../data/85db32e7b7501769d03e67eb16f11eee.jpg";
+import scar from "../data/480b263b0a9b5c28df90bb906fab7425.jpg";
+import aeilr from "../data/8951cef3b30d1a6b9b3aa519cf93f7dd.jpg";
+import twitch_jump from "../data/73054a4bfa24adcd06d72767115c3ada.jpg";
+import corwyn from "../data/b7521360c113e670836aceff8b6fecd8.jpg";
+import thistle_corwyn_fight from "../data/bd6c8fb05d0850a24bca3c82bea75163.jpg";
+import group_photo from "../data/cc6264caa47bc808bfe08cb0c971bbd2.jpg";
+import full_plate from "../data/eb87749168124b535dff54eb1a31356d.jpg";
+
 let Images = styled.ul`
   display: flex;
   flex-direction: column;
@@ -11,8 +21,8 @@ let Image = styled.li`
   justify-content: center;
   margin-top: 2%;
   & img {
-    width: 40%;
-    height: 40%;
+    width: 80%;
+    height: 80%;
   }
 `;
 function ListImage({ src, alt }) {
@@ -26,84 +36,18 @@ function ListImage({ src, alt }) {
 function Photos() {
   return (
     <Images>
+      <ListImage src={twitch_jump} alt={twitch_jump} />
+      <ListImage src={thistle_corwyn_fight} alt={thistle_corwyn_fight} />
+      <ListImage src={chelli_fire_elemental}alt={chelli_fire_elemental} />
+      <ListImage src={mads_thoror} alt={mads_thoror} />
+      <ListImage src={scar} alt={scar} />
+      <ListImage src={aeilr} alt={aeilr} />
+      <ListImage src={corwyn} alt={corwyn} />
       <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/4aee4f2e99f01f53f00d6be7481e0fb8/revisions/05638d608a8db86667faec0545ca05f5/renditions/fa9aa1c8220da782a0199cc012e43763"
-        }
-        alt={"Luck Duel"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/450370e85dd9d538c02e9d7a6990c307/revisions/4f0a67375edb1c6ffd7232769e6999f0/renditions/5434033fbbf7599c63eca6b301ecb5e2"
-        }
-        alt={"thistle_aera_battlegame"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/148f68bd6561b232b9f0edede6fade13/revisions/1d434e53f165bf6078de4090b9b1a113/renditions/9e0e546c2a7be6c283f4ab0f2fc56997"
-        }
-        alt={"twitch_rabbit_jump"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/22f5c11cf2e8d52f2e3e3e91e59d6ffe/revisions/097340138f232f6638b29c1999534610/renditions/1011bedb2f83abb353e10df8e90fc0ea"
-        }
-        alt={"corwyn_trin_twitch_battlegame"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/48e1a3a6a46b7a0d51ec3d4da9c0c8be/revisions/bd8e3e6906138da905338216b844a51d/renditions/696a978ea0c3afc210bb49e0f951adfe"
-        }
-        alt={"genet_igorna_duel"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/a6974de0f4108eb5931e1a43ed382769/revisions/2099004fd69299c8a6d0c0e9310c5bf9/renditions/2cd1d52de81acba44419cd4caabf155b"
-        }
-        alt={"goblin_luck_duel"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/4312235bd8f7b8e0b8319a21aa859e6b/revisions/65119401eb5b622e96e831d82a2cccc3/renditions/469317ddf474cf39bd8b9804ee226dea"
-        }
-        alt={"lip_twitch_duel"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/10ddbe95b35b6dd015bf378c9d8efe01/revisions/dc28f96047cc4c06235be0977b0f36a7/renditions/3fcd791c77fbd62f615d4a6a91e86f6e"
-        }
-        alt={"luck_javelin"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/3a3cb5b86549336fc51bb724d4a7034b/revisions/ad6a7e3d8d7e2a1a6ffa97144931a7c0/renditions/8b0764b519df924a1315055b78eae9cb"
-        }
-        alt={"thistle_corwyn_twitch_battlegame"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/afa7a1b2a8cd1a0fb75d60cc77298bea/revisions/6266bbef3ae78acbd757f668e8c91680/renditions/7fd1e973c0b5267151ca93594b8acfe8"
-        }
-        alt={"thistle_cycla_duel"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/47c2402a39a2d720f1bad5a1595007fc/revisions/54a0711c2e4006462a865b3013598483/renditions/364b043d0688e68076cdef0d2498cb2d"
-        }
-        alt={"thistle_jump"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/4c74151a939c83516c687fd409cdd394/revisions/e784f80ae54473de47e7d2eeb8a8f0cc/renditions/b71222fc586a541c4086fa2bfcfd3c3d"
-        }
-        alt={"twitch_chelli_javelin"}
-      />
-      <ListImage
-        src={
-          "https://lightroom.adobe.com/v2c/spaces/5b9251d6611e4458ad913fc5a6d0d0d2/assets/41294a0682bab9bfbb9e58f1eeb7922a/revisions/0fff73ae60b3491eefe72e1f49febbda/renditions/35e8f187732a21c0dbfa0402fa05a965"
-        }
-        alt={"twitch_flail"}
-      />
+        src={group_photo}
+        alt={group_photo}
+      /> 
+      <ListImage src={full_plate} alt={full_plate} />
     </Images>
   );
 }

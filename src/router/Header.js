@@ -59,8 +59,8 @@ function Header() {
         <StyledLink to="/"> Join Us </StyledLink>
         <StyledLink to="/about"> About </StyledLink>
         <StyledLink to="/photos"> Photos</StyledLink>
-        <StyledLink to="/faq"> FAQ</StyledLink>
-        <StyledLink to="/resources"> Resources</StyledLink>
+        {/* <StyledLink to="/faq"> FAQ</StyledLink> */}
+        {/* <StyledLink to="/resources"> Resources</StyledLink> */}
         <StyledLink to="/calendar"> Calendar</StyledLink>
       </LinksDiv>
     </SiteTitle>
