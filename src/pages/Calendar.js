@@ -20,105 +20,68 @@ let Month = styled.div`
 function Calendar() {
 
 return <CalendarPage>
-<list>
-    <Month>November</Month>
-    <li>    8th- Craft Hall</li>
-    <li>    9th- Fight Practice</li>
-    <li>    10th- Online Movie Night</li>
-    <li>    12th- Fanquest </li>
-    <li>    13th- Fanquest</li>
-    <li>    15th- Craft Hall</li>
-    <li>    16th- Fight Practice</li>
-    <li>    17th- Online Movie Night</li>
-    <li>    20th- Regular Park Day</li>
-    <li>    23rd- Fight Practice </li>
-    <li>    24th- Online Movie Night</li>
-    <li>    27th- Quest Day</li>
-    <li>    29th- Craft Hall</li>
-    <li>    30th- Fight Practice</li>
-<Month>December</Month>
-    <li>    1st- Online Movie Night</li>
-    <li>    4th- Regular Park Day</li>
-    <li>    6th- Craft Hall</li>
-    <li>    7th- Fight Practice</li>
-    <li>    8th- Online Movie Night</li>
-    <li>    11th- Christmas tournament</li>
-    <li>    14th- Fight Practice</li>
-    <li>    15th- Online Movie Night</li>
-    <li>    18th- Christmas Quest </li>
-    <li>    20th- Craft Hall</li>
-    <li>    21st- Fight Practice</li>
-    <li>    22nd- Online Movie Night</li>
-    <li>    28th- Fight Practice  </li>
-    <Month>January </Month>
-    <li>    1st- No Park</li>
-    <li>    4th- Fight Practice</li>
-    <li>    5th- Online Movie Night</li>
-    <li>    8th- Regular Park Day</li>
-    <li>    11th- Fight Practice</li>
-    <li>    12th- Online Movie Night</li>
-    <li>    15th- Regular Park Day</li>
-    <li>    17th- Craft Hall</li>
-    <li>    18th- Fight Practice</li>
-    <li>    19th- Online Movie Night</li>
-    <li>    22nd- Regular Park Day</li>
-    <li>    24th- Craft hall</li>
-    <li>    25th- Fight Practice</li>
-    <li>    26th- Online Movie Night</li>
-    <li>    29th- Quest Day</li>
-    <Month>February</Month>
-    <li>    1st- Fight Practice </li>
-    <li>    2nd- Online Movie Night</li>
-    <li>    5th- Midreign (Location to be determined)</li>
-    <li>        -Dragon Master (Northern Fields Pride) </li>
-    <li>        -Weapon Master</li>
-    <li>        -Awards</li>
-    <li>    7th- Craft Hall</li>
-    <li>    8th- Fight Practice</li>
-    <li>    9th- Online Movie Night</li>
-    <li>    12th- Regular Park Day</li>
-    <li>    14th- Craft Hall</li>
-    <li>    15th- Fight Practice</li>
-    <li>    16th- Online Movie Night</li>
-    <li>    19th- Regular Park Day</li>
-    <li>    22nd- Fight Practice</li>
-    <li>    23rd- Online Movie Night</li>
-    <li>    26th- Quest Day</li>
-    <li>    28th- Craft Hall</li>
-    <Month>March </Month>
-    <li>    1st- Fight Practice</li>
-    <li>    2nd- Online Movie Night</li>
-    <li>    5th-Sir Corwyn’s & Ezira Birthday Bash</li>
-    <li>    7th- Craft Hall</li>
-    <li>    8th- Fight Practice</li>
-    <li>    9th- Online Movie Night </li>
-    <li>    12th- Regular Park Day</li>
-    <li>    14th- Craft Hall</li>
-    <li>    15th- Fight Practice</li>
-    <li>    16th- Online Movie Night</li>
-    <li>    19th- Regular Park Day</li>
-    <li>    22nd- Fight Practice</li>
-    <li>    23rd- Online Movie Night</li>
-    <li>    26th- Quest Day</li>
-    <li>    28th- Craft Hall</li>
-    <li>    29th- Fight Practice</li>
-    <li>    30th- Online Movie Night</li>
-    <Month>April</Month>
-    <li>    2nd- Regular Park Day</li>
-    <li>    4th- Craft Hall</li>
-    <li>    5th- Fight Practice</li>
-    <li>    6th- Online Movie Night </li>
-    <li>    9th- Battle Master (Tournament)</li>
-    <li>    11th- Craft Hall</li>
-    <li>    12th- Fight Practice </li>
-    <li>    13th- Online Movie Night</li>
-    <li>    15th- End Reign!!!!</li>
-    <li>        -Potluck Feast</li>
-    <li>        -Awards</li>
-    <li>        -Coronation </li>
-    This Schedule is subject to change.
-</list>
+Please Note! Outdoor Park Days will be canceled and an online event held instead on our discord in the event of forecast (with windchill) being colder than -25c.
 
+<list>
+    
+<Month>November </Month>
+<li>5 - End Reign - PM Declarations Start</li>
+<li>7 - Craft Hall</li>
+<li>12 - Park Day</li>
+<li>19 - Park Day - PM Declarations Close</li>
+<li>21 - Craft Hall</li>
+<li>26 - Park Day - Playtest V9 Day</li>
+
+<Month>December</Month>
+<li>3 - Park Day - PM Elections Start</li>
+<li>5 - Craft Hall</li>
+<li>10 - Park Day</li>
+<li>17 - Park Day - PM Elections Close</li>
+<li>19 - Christmas Craft Hall</li>
+<li>24 - Christmas Eve Discord VC</li>
+<li>31 - Park Day - Playtest V9 Day</li>
+
+<Month>January</Month>
+<li>7 - Park Day</li>
+<li>9 - Craft Hall</li>
+<li>14 - Park Day</li>
+<li>21 - Park Day - Location 448 Burnell St</li>
+<li>23 - Craft Hall</li>
+<li>28 - Park Day - Playtest V9 Day</li>
+
+<Month>February</Month>
+<li>4 - Park Day - Battle Master</li>
+<li>6 - Craft Hall</li>
+<li>11 - Park Day (Mid Reign) Weapon/Dragon Masters - Location 448 Burnell St</li>
+<li>18 - Park Day</li>
+<li>20 - Craft Hall</li>
+<li>25 - Park Day - Playtest V9 Day</li>
+
+<Month>March</Month>
+<li>3 - Park Day - Election Declaration Start</li>
+<li>5 - Craft Hall</li>
+<li>10 - Park Day</li>
+<li>17 - Park Day</li>
+<li>19 - Craft Hall</li>
+<li>24 - Park Day - Election Declaration End</li>
+<li>31 - Park Day - Playtest V9 Day</li>
+
+<Month>April</Month>
+<li>7 - Park Day - Election Start</li>
+<li>9 - Craft Hall</li>
+<li>14 - Park Day</li>
+<li>21 - Park Day - Election End</li>
+<li>23 - Craft Hall</li>
+<li>28 - Park Day - Playtest V9 Day</li>
+
+<Month>May</Month>
+<li>5 - Park Day</li>
+<li>12 - Park Day - Playtest V9 Day</li>
+<li>18 - End Reign - Feast (Star Wars theme) - Location 448 Burnell St</li>
+<li>19 - Park Day</li>
+
+</list>
+This Schedule is subject to change.
 </CalendarPage>
 }
 export default Calendar;
